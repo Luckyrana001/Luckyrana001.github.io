@@ -1,0 +1,14 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="2dp" />
+    <solid android:color="@color/blue_label" />
+    <stroke
+        android:width="2.3dp"
+        android:color="@android:color/darker_gray" />
+
+    <padding
+        android:bottom="@dimen/radio_padding_tb"
+        android:left="@dimen/radio_padding_lr"
+        android:right="@dimen/radio_padding_lr"
+        android:top="@dimen/radio_padding_tb" />
+</shape>

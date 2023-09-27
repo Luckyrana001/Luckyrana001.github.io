@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- default -->
+<item android:state_focused="false" android:state_pressed="false">
+    <shape android:innerRadiusRatio="1" android:shape="rectangle" >
+        <solid android:color="@color/white" />
+
+        <stroke android:width="1dp" android:color="@color/blue_yonder_half_transparent"/>
+        <corners android:radius="8dp" />
+    </shape>
+</item>
+
+<!-- button focused -->
+<item android:state_focused="true" android:state_pressed="false">
+    <shape android:innerRadiusRatio="1" android:shape="rectangle">
+        <solid android:color="@color/blue_yonder_half_transparent" />
+
+        <stroke android:width="1dp" android:color="@color/blue_yonder_half_transparent" />
+        <corners android:radius="8dp" />
+    </shape>
+</item>
+
+<!-- button pressed -->
+<item android:state_focused="false" android:state_pressed="true">
+    <shape android:innerRadiusRatio="1" android:shape="rectangle">
+        <solid android:color="@color/blue_yonder_half_transparent" />
+
+        <stroke android:width="1dp" android:color="@color/blue_yonder_half_transparent" />
+        <corners android:radius="8dp" />
+    </shape>
+</item>
+</selector>

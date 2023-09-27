@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/blue_label" />
+            <stroke android:width="2.3dp" android:color="@color/blue_label" />
+            <corners android:radius="@dimen/edittext_border_corner" />
+        </shape>
+    </item>
+    <item android:state_enabled="true">
+        <shape>
+            <padding android:bottom="@dimen/edittext_padding_lr" android:left="@dimen/edittext_padding_lr" android:right="@dimen/edittext_padding_lr" android:top="@dimen/edittext_padding_lr" />
+        </shape>
+    </item>
+
+</selector>

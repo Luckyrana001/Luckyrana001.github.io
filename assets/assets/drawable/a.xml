@@ -1,0 +1,13 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="2dp" />
+    <solid android:color="@color/sbc_header_text" />
+    <stroke
+        android:width="1dp"
+        android:color="@android:color/darker_gray" />
+    <padding
+        android:bottom="15dp"
+        android:left="@dimen/edittext_padding_lr"
+        android:right="@dimen/edittext_padding_lr"
+        android:top="15dp" />
+</shape>
