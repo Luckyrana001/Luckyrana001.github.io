@@ -126862,7 +126862,7 @@ s=p}while(true)switch(s){case 0:p=4
 k=t.N
 j=A.af(["banner_type","home_banners"],k,k)
 i=t.z
-h=A.boN(A.af(["X-VOUCHER-YES-APP-HMAC-SHA256","A1a0Dr4hc99d2ylzGH/w0HFngCEtnQi+EcAGXl+fxs8="],k,i))
+h=A.boN(A.af(["X-VOUCHER-YES-APP-HMAC-SHA256","A1a0Dr4hc99d2ylzGH/w0HFngCEtnQi+EcAGXl+fxs8=","Access-Control-Allow-Origin","*"],k,i))
 h.a="POST"
 s=7
 return A.y(n.a.RI(0,"yes_vouchers/banners_list",null,j,null,null,h,null,i),$async$GM)
